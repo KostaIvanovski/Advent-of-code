@@ -9,6 +9,7 @@ array.forEach((_, index) => {
   array[index] = array[index].split(/\s->\s|,/);
 });
 
+// Test commit
 console.log(findHorizontalAndVerticalLines());
 let ventLinesDiagram = createDiagram();
 
